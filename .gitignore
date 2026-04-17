@@ -1,0 +1,78 @@
+# MATLAB / Simulink .gitignore
+
+# Скомпилированные MEX-файлы (платформозависимые)
+*.mex*
+*.mexa64
+*.mexglx
+*.mexmaci64
+*.mexw32
+*.mexw64
+
+# Файлы справки и отчётов
+*.mlx
+*.html
+*.pdf
+*.docx
+*.fig
+
+# Временные и резервные копии
+*.asv
+*.bak
+*.tmp
+*.swp
+*.swo
+
+# SLX-модели (Simulink) — если используете Git LFS, то укажите иначе раскомментируйте
+# *.slx
+
+# Stateflow и Simulink кэш
+*.slxc
+*.sfx
+*.sldd
+*.sldd.lock
+
+# Папки сгенерированного кода (Simulink Coder, Embedded Coder, HDL Coder)
+slprj/
+codegen/
+simulink/
+sldemo/
+*.autosave
+
+# Проекты MATLAB (.prj) — обычно хранить можно, но если он слишком персонален:
+# *.prj
+
+# Файлы сессии / рабочего пространства
+*.mat
+*.fig
+*.mldatx
+
+# Диагностика и логи
+*.log
+*.diag
+*.diagview
+*.rpt
+
+# Настройки редактора и кэш Simulink
+SimulinkCache/
+matlab_crash_dump.*
+*.Stateflow.R
+*.autosave
+
+# Пользовательские настройки (не переносимые)
+/Work/
+/private/
+/local/
+*.lastUsed
+
+# Jupyter Notebook для MATLAB (если используете)
+*.ipynb
+
+# Папка для сборки (если генерируете exe/dll)
+build/
+bin/
+obj/
+
+# IDE (например, VS Code, PyCharm с MATLAB-плагинами)
+.vscode/
+.idea/
+*.code-workspace
