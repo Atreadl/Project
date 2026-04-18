@@ -3,6 +3,7 @@
 % out1 изменение оборотов с течением времени
 
 n1 = 0;
-n2 = 2000;
-signal = 0;
-signalDrum = 0;
+nEngine = 2000;
+nDrum = 600;
+sEngine = 0;
+sDrum = 0;
