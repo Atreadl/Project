@@ -5,3 +5,4 @@
 n1 = 0;
 n2 = 2000;
 signal = 0;
+signalDrum = 0;
