@@ -1,9 +1,9 @@
-% in1 текущее значение частоты оборотов двигателя
-% in2 задание частоты оборотов двигателя
-% out1 изменение оборотов с течением времени
+nEngine = 1500;
+nDrum = 0;
+nHeader = 0;
+nGrainConveyor = 0;
 
-n1 = 0;
-nEngine = 2000;
-nDrum = 600;
-sEngine = 0;
+sEngine = 1;
 sDrum = 0;
+sHeader = 0;
+sGrainConveyor = 0;
