@@ -1,9 +1,9 @@
-nEngine = 1500;
-nDrum = 0;
-nHeader = 0;
+nEngine = 2500;
+nDrum = 1000;
+nHeader = 100;
 nGrainConveyor = 0;
 
 sEngine = 1;
-sDrum = 0;
-sHeader = 0;
-sGrainConveyor = 0;
+sDrum = 1;
+sHeader = 1;
+sGrainConveyor = 1;

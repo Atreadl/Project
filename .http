@@ -1,0 +1,14 @@
+WEBSOCKET ws://127.0.0.1:9001
+Content-Type: application/json
+
+{
+  "sEngine": 0,
+  "nEngine": 2500,
+  "sDrum": 1,
+  "nDrum": 1000,
+  "sHeader": 1,
+  "nHeader": 100,
+  "sGrainConveyor": 0
+}
+
+===
